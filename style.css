@@ -19,7 +19,7 @@ body{
 }
 /* Header 1*/
 
-.box-pink{
+.logo{
     background-image: url(./images/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -37,7 +37,7 @@ body{
 
 /* Section */
 
-.box-yellow{
+.main-content{
     width: 100%;
     height: 560px;
     margin-top: 20px;
@@ -60,7 +60,7 @@ body{
 }
 /* Header 2 */
 
-.box-blue{
+.new-section{
     width: 100%;
     height: 75px;
     margin-top: 20px;
@@ -77,7 +77,6 @@ body{
 }
 
 .left-box{
-    position: relative;
     float: left;
     width: 25%;
     height: 200px;
@@ -105,7 +104,7 @@ body{
 }
 
 .right-box{
-    float: left;
+    float: right;
     width: 25%;
     height: 200px;
     margin-top: 20px;
@@ -121,7 +120,12 @@ body{
     width: 100%;
     height: 75px;
     margin-top: 20px;
-    background-color: darkviolet;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.heart{
+    color: red;
 }
 
 /* Spacing */
@@ -133,6 +137,18 @@ body{
 
 /* Details */
 
+.second-row{
+    margin: 0;
+}
+
 .details{
     float: left;
+    max-width: 25%;
+    margin: 0;
+}
+
+.details-middle{
+    float: left;
+    max-width: calc(50% - 40px);
+    margin: 0;
 }
