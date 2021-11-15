@@ -85,7 +85,7 @@ body{
     margin-bottom: 20px;
     background-image: url(./images/img-1.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .bold{
@@ -100,7 +100,7 @@ body{
     margin-bottom: 20px;
     background-image: url(./images/banner-2.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .right-box{
@@ -112,7 +112,7 @@ body{
     margin-bottom: 20px;
     background-image: url(./images/img-3.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 /* Footer */
 
