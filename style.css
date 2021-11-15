@@ -83,6 +83,7 @@ body{
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+    border-radius: 15px;
     background-image: url(./images/img-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,6 +99,7 @@ body{
     height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 15px;
     background-image: url(./images/banner-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,6 +112,7 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+    border-radius: 15px;
     background-image: url(./images/img-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,17 +141,21 @@ body{
 /* Details */
 
 .second-row{
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .details{
     float: left;
     max-width: 25%;
-    margin: 0;
 }
 
 .details-middle{
     float: left;
     max-width: calc(50% - 40px);
-    margin: 0;
+}
+
+.details-1{
+    max-width: 25%;
+    float: right;
 }
