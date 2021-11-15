@@ -17,13 +17,17 @@
 .container{
     margin: 0 auto;
 }
+
+body{
+    position: relative;
+}
 /* Header 1*/
 
 .box-pink{
     background-image: url(./images/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-size: 20%;
+    background-size: 15%;
     width: 100%;
     height: 100px;
     margin-top: 20px;
@@ -39,11 +43,25 @@
 
 .box-yellow{
     width: 100%;
-    height: 450px;
+    height: 560px;
     margin-top: 20px;
-    background-color: goldenrod;
+    border-radius: 15px;
+    background-image: url(./images/banner.jpg);
 }
 
+.title{
+    float: left;
+    color: white;
+    font-weight: normal;
+    margin-top: 425px;
+    margin-left: 50px;
+}
+
+.subtitle{
+    float: left;
+    color: white;
+    margin-left: 50px;
+}
 /* Header 2 */
 
 .box-blue{
