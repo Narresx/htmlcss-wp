@@ -45,7 +45,6 @@ body{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4),  rgba(0, 0, 0, 0.3)), url(./images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .title{
@@ -82,6 +81,9 @@ body{
 .left-box{
     float: left;
     width: 25%;
+}
+
+.image-left{
     height: 200px;
     margin-top: 20px;
     margin-right: 20px;
@@ -98,7 +100,10 @@ body{
 
 .middle-box{
     float: left;
-    width: calc(50% - 40px);
+    width:  50%;
+}
+
+.image-middle{
     height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -106,11 +111,15 @@ body{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4),  rgba(0, 0, 0, 0.4)), url(./images/banner-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .right-box{
     float: right;
     width: 25%;
+}
+
+.image-right{
     height: 200px;
     margin-top: 20px;
     margin-left: 20px;
@@ -120,9 +129,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* Footer */
 
-.box-violet{
+.closure{
     width: 100%;
     height: 75px;
     margin-top: 20px;
@@ -139,26 +149,4 @@ body{
 .spacing{
     margin: 0;
     margin-top: 40px;
-}
-
-/* Details */
-
-.second-row{
-    margin: 0 auto;
-    width: 100%;
-}
-
-.details{
-    float: left;
-    max-width: 25%;
-}
-
-.details-middle{
-    float: left;
-    max-width: calc(50% - 40px);
-}
-
-.details-1{
-    max-width: 25%;
-    float: right;
 }
